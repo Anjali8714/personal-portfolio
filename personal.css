@@ -1,0 +1,181 @@
+/* main section */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.nav-link{
+    
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+    text-decoration: none;
+}
+.nav-link:hover{
+   
+    background-color: lightgray;
+}
+
+.main h3{
+    font-size: 4rem;
+    font-weight: 900;
+}
+.main h5{
+    font-size: 1.2rem;
+    color: gray;
+    
+}
+
+.svg{
+    top:-57px;
+    left: 36px;
+}
+
+.svg1{
+    top:-57px;
+    left: 46px;
+}
+
+.svg2{
+    top:-57px;
+    left: 56px;
+}
+
+
+.img{
+    width:500px;
+    height: 500px;
+    top: 141px;
+    left: 826px;
+    
+}
+.col-lg-6 {
+    font-size: 80px;
+}
+
+
+
+/* About section */
+
+
+.about img{
+    -webkit-box-shadow: 57px 15px 80px -45px rgba(0,0,0,0.31);
+-moz-box-shadow: 57px 15px 80px -45px rgba(0,0,0,0.31);
+box-shadow: 57px 15px 80px -45px rgba(0,0,0,0.31);
+width: 446px;
+height: 535px;
+}
+
+.ab{
+    position: relative;
+    top: -252px;
+    left: 610px;
+    font-size: 20px;
+}
+
+.ab1{
+    position: relative;
+    top: -252px;
+    left: 610px;
+   
+}
+
+.abb{
+    position: relative;
+    top: -252px;
+    left: 410px;
+    font-size: 20px;
+}
+
+.abb1{
+    position: relative;
+    top: -252px;
+    left: 410px;
+   
+}
+
+/* skill section */
+
+.progress{
+    background-color: rgba(223, 219, 219);
+    justify-content: flex-start;
+    border-radius: 50px;
+    align-items: center;
+    position: relative;
+    display: flex;
+    left: 100px;
+    width: 100%;
+    height: 50px;
+}
+
+.pro-value{
+    animation: load1 3s normal forwards;
+    border-radius: 50px;
+    background-color: black;
+    height: 40px;
+    width: 0;
+}
+
+.progress p{
+    color: white;
+    padding: 12px;
+}
+.pro-value1{
+    animation: load2 3s normal forwards;
+    border-radius: 50px;
+    background-color: black;
+    height:40px;
+    width: 0;
+}
+.pro-value2{
+    animation: load3 3s normal forwards;
+    border-radius: 50px;
+    background-color: black;
+    height: 40px;
+    width: 0;
+}
+.pro-value3{
+    animation: load4 3s normal forwards;
+    border-radius: 50px;
+    background-color: black;
+    height: 40px;
+    width: 0;
+}
+@keyframes load1{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 98%;
+    }
+}
+@keyframes load2{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 70%;
+    }
+}
+@keyframes load3{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 98%;
+    }
+}
+@keyframes load4{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 65%;
+    }
+}
+
+
+
+
